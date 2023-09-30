@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="darkreader-lock">
+
+		<meta name="Author" content="Faelixyz">
+		<meta name="Keywords" content="hur hur, hurhur, hurdur, hurr-durr, hurrdurr, hurr durr, durr dog, dog, durr, hurr">
+		<meta name="Description" content="meowmeow">
+		
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="HURHURHURHURHURHURHURHURHURU">
+		<meta property="og:description" content="HUUHUHUHUHUHUHURHURHRU-UDRUDRUDRUDRUDU">
+		<meta property="og:url" content="hurrdurr.faelixyz.de">
+		<meta property="og:image" content="/favicon2.png">
+		<meta property="og:image:width" content="256">
+		<meta property="og:image:height" content="256">
+		<meta property="og:image:alt" content="HURR-DURR">
+
+		<title>HURHURHURHURHU</title>
+
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+	</head>
+	
+	<body class="adaptive">
+		<nav class="controls adaptive">
+			<div class="links">
+				<a class="link" href="https://go.faelixyz.de/youtube">yootoob</a>
+				<a id="fun" class="link" href="https://go.faelixyz.de/nyan">hahahaha</a>
+				<a class="link" target="_blank" href="https://go.faelixyz.de/discord">discord</a>
+			</div>
+
+		</nav>
+
+		<main class="container clicky" id="roll">
+			<div class="hurr-container">
+				<p class="caption stretch hurr">
+					<span class="word">HURHURHURH</span>
+					<span class="symbol">!? ?!? !? !</span>
+				</p>
+			</div>
+			<div class="durr-container">
+				<p class="caption stretch durr">
+					<span class="word">DURR</span>
+					<span class="symbol">!1</span>
+				</p>
+
+				<video src="/hurr.mp4" id="hurr-video" class="video" disablePictureInPicture muted autoplay loop></video>
+				<span class="caption hurr-durr">hurrdurr 🎨🎊🎉🖼🧥🧶</span>
+			</div>
+		</main>
+
+		<footer class="contact adaptive" id="hurr-footer">
+			<a class="small" href="/hi">Version 6.9</a>
+			<span>
+				Made with 💕 by <a class="link" target="_blank" href="https://go.faelixyz.de/youtube">Faelixyz</a><br>
+			</span>
+		</footer>
+
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/scripts/index.js" type="application/javascript"></script>
+		<script src="/scripts/cleanup.js" type="application/javascript"></script>
+	</body>
+</html>
+
+<style>
+  @import url("/styles/fonts/Comic Sans MS/fontface.css");
+
+body {
+	font-family: 'Times New Roman', sans-serif;
+	margin:	0;
+}
+
+@media (prefers-color-scheme: dark) {
+	body.adaptive {
+		background-color: rgb(23, 24, 27);
+	}
+	
+	.contact.adaptive {
+		color: white;
+	}
+
+	.adaptive .link {
+		color: rgb(43, 124, 252);
+	}
+	
+	.adaptive .link:visited {
+		color: rgb(207, 133, 229);
+	}
+	
+	.adaptive .link:hover {
+		color: rgb(255, 55, 95);
+	}
+}
+
+.controls {
+	display: flex;
+	flex-direction: row;
+
+	gap: 7px;
+	padding: 7px;
+
+	float: right;
+}
+
+.links {
+	-webkit-user-select: none;
+	user-select: none;
+
+	opacity: 0.85;
+}
+
+.popup {
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.popup:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.link:hover {
+	font-weight: bold;
+}
+
+.container {
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+
+	z-index: -69;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.hurr-container {
+	display: flex;
+	flex-direction: row;
+
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.durr-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: center;
+	align-items: flex-end;
+
+	text-align: center;
+}
+
+.caption {
+	font-family: "Comic Sans MS", sans-serif;
+
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.stretch {
+	display: inline-block;
+
+	margin: 0;
+	padding: 10px 20px;
+
+	transform: scaleY(62%);
+}
+
+.stretch > .word {
+	font-size: 36px;
+	letter-spacing: 2px;
+}
+
+.stretch > .symbol {
+	font-size: 76px;
+	letter-spacing: 2px;
+
+	margin-left: -6px;
+}
+
+@keyframes hurr {
+	from, to {
+		visibility: hidden;
+	}
+
+	50% {
+		visibility: visible;
+	}
+}
+
+@keyframes durr {
+	from, to {
+		visibility: visible;
+	}
+
+	50% {
+		visibility: hidden;
+	}
+}
+
+.hurr {
+	color: #0033FF;
+	animation: hurr step-end 1s infinite;
+
+	transform-origin: top;
+}
+
+.durr {
+	color: #FF3300;
+	animation: durr step-end 1s infinite;
+
+	transform-origin: bottom;
+}
+
+@keyframes flasher {
+	from, to {
+		color: #FAC80A;
+	}
+
+	33% {
+		color: #04C80A;
+	}
+
+	67% {
+		color: #F7240C;
+	}
+}
+
+.hurr-durr {
+	display: inline-block;
+
+	animation: flasher step-end 200ms infinite;
+
+	/*
+		The original GIF is 496px wide;
+		A Comic Sans MS caption with 72px font size is 496x63
+
+		The Original GIF is 39px tall;
+		39 / 63 * 100 = 61.9%
+	 */
+	font-size: 72px;
+	letter-spacing: 4px;
+	transform: scaleY(62%);
+	transform-origin: bottom;
+
+	/*
+		Is this a lucky coincidence?
+		The original gif has 37px horizontal padding and 13px vertical padding.
+	*/
+	padding: 13px 37px;
+}
+
+.video {
+	width: 452px;
+	height: 340px;
+}
+
+@media only screen and (max-width: 639px) {
+	.stretch > .word {
+		font-size: 27px;
+	}
+
+	.stretch > .symbol {
+		font-size: 57px;
+	}
+
+	.hurr-durr {
+		font-size: 48px;
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 452px) {
+	.stretch > .word {
+		font-size: 18px;
+	}
+
+	.stretch > .symbol {
+		font-size: 38px;
+	}
+
+	.hurr-durr {
+		font-size: 32px;
+		padding: 0;
+	}
+	
+	.video {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.contact {
+	position: fixed;
+
+	bottom: 0;
+	right: 0;
+
+	padding: 7px;
+	opacity: 0.25;
+
+	text-align: right;
+
+	-webkit-user-select: none;
+	user-select: none;
+
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+.contact:hover {
+	opacity: 0.85;
+}
+
+/* Helper classes. */
+.small {
+	font-size: 10px;
+	line-height: 0;
+}
+
+.shadowy {
+	text-shadow: 1px 1px 2px white;
+}
+
+.clicky {
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+</style>
